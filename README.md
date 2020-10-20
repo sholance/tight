@@ -1,2 +1,6 @@
-# tight
-a clone of a populer SaaS (HINT opp Tight)
+#a clone of a popular Saas
+
+(HINT opp of Tight)
+
+This project was bootstrapped with [Create React App]
+
