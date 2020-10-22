@@ -15,7 +15,7 @@
 
 .chat__channelName {
     display: flex;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 .chat__channelName > .MuiSvgIcon-root {
