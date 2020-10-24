@@ -1,0 +1,146 @@
+[debug] [2020-10-24T10:33:38.499Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T10:33:38.509Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\OLUWANISOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-24T10:33:38.510Z] CLI Version:   8.12.1
+[debug] [2020-10-24T10:33:38.511Z] Platform:      win32
+[debug] [2020-10-24T10:33:38.511Z] Node Version:  v12.18.2
+[debug] [2020-10-24T10:33:38.515Z] Time:          Sat Oct 24 2020 11:33:38 GMT+0100 (West Africa Standard Time)
+[debug] [2020-10-24T10:33:38.515Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T10:33:38.516Z] 
+[debug] [2020-10-24T10:33:38.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-24T10:33:38.555Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\OLUWANISOLA\My projects\tight
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using tight-shola. 
+[debug] [2020-10-24T10:33:58.614Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tight-shola  
+ 
+[debug] [2020-10-24T10:33:59.483Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 24 Oct 2020 10:33:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-24T10:34:11.519Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-24T10:34:53.619Z] Error: connect ETIMEDOUT 216.58.223.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.223.195:443
+[debug] [2020-10-24T10:48:25.963Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T10:48:25.972Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\OLUWANISOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-24T10:48:25.974Z] CLI Version:   8.12.1
+[debug] [2020-10-24T10:48:25.974Z] Platform:      win32
+[debug] [2020-10-24T10:48:25.974Z] Node Version:  v12.18.2
+[debug] [2020-10-24T10:48:25.978Z] Time:          Sat Oct 24 2020 11:48:25 GMT+0100 (West Africa Standard Time)
+[debug] [2020-10-24T10:48:25.979Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T10:48:25.979Z] 
+[debug] [2020-10-24T10:48:26.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-24T10:48:26.013Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\OLUWANISOLA\My projects\tight
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using tight-shola. 
+[debug] [2020-10-24T10:48:33.490Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-24T10:48:33.491Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-10-24T10:48:34.274Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 24 Oct 2020 10:48:34 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-24T10:48:34.329Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tight-shola  
+ 
+[debug] [2020-10-24T10:48:34.907Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 24 Oct 2020 10:48:35 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-24T10:48:50.828Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-24T10:49:33.070Z] Error: connect ETIMEDOUT 216.58.223.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.223.195:443
+[debug] [2020-10-24T10:51:51.036Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T10:51:51.046Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\OLUWANISOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-24T10:51:51.048Z] CLI Version:   8.12.1
+[debug] [2020-10-24T10:51:51.048Z] Platform:      win32
+[debug] [2020-10-24T10:51:51.049Z] Node Version:  v12.18.2
+[debug] [2020-10-24T10:51:51.051Z] Time:          Sat Oct 24 2020 11:51:51 GMT+0100 (West Africa Standard Time)
+[debug] [2020-10-24T10:51:51.052Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T10:51:51.053Z] 
+[debug] [2020-10-24T10:51:51.084Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-24T10:51:51.086Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\OLUWANISOLA\My projects\tight
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using tight-shola. 
+[debug] [2020-10-24T10:52:04.798Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tight-shola  
+ 
+[debug] [2020-10-24T10:52:25.940Z] Server Error. connect ETIMEDOUT 216.58.223.234:443
+[debug] [2020-10-24T10:52:47.073Z] FirebaseError: Server Error. connect ETIMEDOUT 216.58.223.234:443
+    at Request._callback (C:\Users\OLUWANISOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\OLUWANISOLA\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.onRequestError (C:\Users\OLUWANISOLA\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:327:22)
+    at ClientRequest.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project tight-shola. Please make sure the project exists and your account has permission to access it.
