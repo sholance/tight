@@ -1,4 +1,4 @@
-#a clone of a popular Saas
+# a popular Saas clone
 
 (HINT opp of Tight)
 
