@@ -1,6 +1,4 @@
-# a popular Saas clone
-
-(HINT opp of Tight)
+# clone
 
 This project was bootstrapped with [Create React App]
 
